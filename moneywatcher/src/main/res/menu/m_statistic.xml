@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ivangusev.moneywatcher.mw.MainActivity" >
+    
+    <item android:id="@+id/mi_settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_settings"/>
+</menu>
